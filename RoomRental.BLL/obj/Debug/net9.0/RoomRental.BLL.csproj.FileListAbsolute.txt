@@ -1,0 +1,17 @@
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.BLL.deps.json
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.BLL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.BLL.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.csproj.AssemblyReference.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.AssemblyInfoInputs.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.AssemblyInfo.cs
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\refint\RoomRental.BLL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\ref\RoomRental.BLL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.DAL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.Models.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.DAL.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.Models.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRent.89B7E33D.Up2Date

@@ -1,0 +1,43 @@
+﻿@model RoomRental.Models.Room
+
+@{
+    ViewData["Title"] = "Редагувати кімнату";
+}
+
+<h2>Редагувати кімнату</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PricePerDay"></label>
+        <input asp-for="PricePerDay" class="form-control" />
+        <span asp-validation-for="PricePerDay" class="text-danger"></span>
+    </div>
+
+    <div class="form-check">
+        <input asp-for="IsAvailable" class="form-check-input" />
+        <label asp-for="IsAvailable" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Зберегти зміни</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Назад</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

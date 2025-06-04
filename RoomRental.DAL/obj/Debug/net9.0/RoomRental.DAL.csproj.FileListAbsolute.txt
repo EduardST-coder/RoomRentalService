@@ -1,0 +1,17 @@
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.csproj.AssemblyReference.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.AssemblyInfoInputs.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.AssemblyInfo.cs
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\bin\Debug\net9.0\RoomRental.DAL.deps.json
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\bin\Debug\net9.0\RoomRental.DAL.runtimeconfig.json
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\bin\Debug\net9.0\RoomRental.DAL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\bin\Debug\net9.0\RoomRental.DAL.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\bin\Debug\net9.0\RoomRental.Models.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\bin\Debug\net9.0\RoomRental.Models.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRent.EFA61726.Up2Date
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\refint\RoomRental.DAL.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.pdb
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\RoomRental.DAL.genruntimeconfig.cache
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.DAL\obj\Debug\net9.0\ref\RoomRental.DAL.dll
