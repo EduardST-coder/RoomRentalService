@@ -1,22 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using RoomRental.Models;
-
+using RoomRental.DAL.Models;
 
 namespace RoomRental.DAL;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<ApplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-    public DbSet<Room> Rooms => Set<Room>();
-    public DbSet<Customer> Customers => Set<Customer>();
-    public DbSet<Rental> Rentals => Set<Rental>();
+    public DbSet<Room> Rooms { get; set; }
+    public DbSet<Rental> Rentals { get; set; }
+    public DbSet<Customer> Customers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-        // зв'язки
         modelBuilder.Entity<Rental>()
             .HasOne(r => r.Room)
             .WithMany(rm => rm.Rentals)

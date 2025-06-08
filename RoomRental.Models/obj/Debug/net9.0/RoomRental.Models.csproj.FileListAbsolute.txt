@@ -9,3 +9,5 @@ C:\Users\ПК\source\repos\RoomRentalService\RoomRental.Models\obj\Debug\net9.0\
 C:\Users\ПК\source\repos\RoomRentalService\RoomRental.Models\obj\Debug\net9.0\refint\RoomRental.Models.dll
 C:\Users\ПК\source\repos\RoomRentalService\RoomRental.Models\obj\Debug\net9.0\RoomRental.Models.pdb
 C:\Users\ПК\source\repos\RoomRentalService\RoomRental.Models\obj\Debug\net9.0\ref\RoomRental.Models.dll
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.Models\obj\Debug\net9.0\RoomRental.Models.sourcelink.json
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.Models\obj\Debug\net9.0\RoomRental.Models.csproj.AssemblyReference.cache

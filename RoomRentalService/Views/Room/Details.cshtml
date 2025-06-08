@@ -1,0 +1,16 @@
+﻿@model RoomRental.Models.Room
+
+@{
+    ViewData["Title"] = "Деталі кімнати";
+}
+
+<h2>Детальна інформація</h2>
+
+<div class="card p-3">
+    <h4>@Model.Name</h4>
+    <p><strong>Опис:</strong> @Model.Description</p>
+    <p><strong>Ціна за день:</strong> @Model.PricePerDay.ToString("C")</p>
+    <p><strong>Доступність:</strong> @(Model.IsAvailable ? "Так" : "Ні")</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Назад до списку</a>

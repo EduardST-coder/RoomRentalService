@@ -15,3 +15,4 @@ C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\Roo
 C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.DAL.pdb
 C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\bin\Debug\net9.0\RoomRental.Models.pdb
 C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRent.89B7E33D.Up2Date
+C:\Users\ПК\source\repos\RoomRentalService\RoomRental.BLL\obj\Debug\net9.0\RoomRental.BLL.sourcelink.json

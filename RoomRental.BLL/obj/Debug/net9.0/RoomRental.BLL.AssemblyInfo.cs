@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomRental.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8edb43fd4081131b155593c2c34eea4236112670")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomRental.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomRental.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

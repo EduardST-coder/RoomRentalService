@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Мій кабінет";
+    var myRooms = ViewBag.MyRooms as List<RoomRental.Models.Room>;
+}
+
+<h2>Мої квартири</h2>
+
+@if (myRooms != null && myRooms.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Опис</th>
+                <th>Ціна</th>
+                <th>Доступна</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in myRooms)
+            {
+                <tr>
+                    <td>@room.Name</td>
+                    <td>@room.Description</td>
+                    <td>@room.PricePerDay</td>
+                    <td>@(room.IsAvailable ? "Так" : "Ні")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">У вас поки що немає квартир.</div>
+}

@@ -1,0 +1,22 @@
+﻿@model RoomRental.Models.Room
+
+@{
+    ViewData["Title"] = "Підтвердження видалення";
+}
+
+<h2>Видалити кімнату</h2>
+
+<h4>Ти впевнений, що хочеш видалити цю кімнату?</h4>
+
+<div class="border p-3 mb-3">
+    <strong>Назва:</strong> @Model.Name<br />
+    <strong>Опис:</strong> @Model.Description<br />
+    <strong>Ціна за день:</strong> @Model.PricePerDay<br />
+    <strong>Доступна:</strong> @(Model.IsAvailable ? "Так" : "Ні")
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Так, видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>
