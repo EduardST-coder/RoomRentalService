@@ -1,37 +1,33 @@
 ﻿@model IEnumerable<RoomRental.Models.Room>
 
 @{
-    ViewData["Title"] = "Список кімнат";
+    ViewData["Title"] = "Оголошення";
 }
 
-<h2>Список кімнат</h2>
+<h2 class="mb-4">Пропозиції оренди/продажу квартир</h2>
 
-<a asp-action="Create" class="btn btn-success mb-3">Додати кімнату</a>
+<div class="list-group">
+    @foreach (var room in Model)
+    {
+        <div class="list-group-item mb-3 p-3 shadow-sm rounded d-flex flex-row gap-3">
+            <img src="@($"/uploads/{room.Id}.jpg")" alt="Фото" class="rounded" style="width: 160px; height: 120px; object-fit: cover;">
 
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Назва</th>
-            <th>Опис</th>
-            <th>Ціна за день</th>
-            <th>Доступна</th>
-            <th>Дії</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var room in Model)
-        {
-            <tr>
-                <td>@room.Name</td>
-                <td>@room.Description</td>
-                <td>@room.PricePerDay.ToString("C")</td>
-                <td>@(room.IsAvailable ? "Так" : "Ні")</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@room.Id" class="btn btn-sm btn-primary">Редагувати</a>
-                    <a asp-action="Delete" asp-route-id="@room.Id" class="btn btn-sm btn-danger">Видалити</a>
-                    <a asp-action="Details" asp-route-id="@room.Id" class="btn btn-sm btn-info">Деталі</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+            <div class="flex-grow-1">
+                <h5 class="mb-1">@room.Name</h5>
+                <p class="text-muted mb-1">@room.Description</p>
+                <p class="text-muted small">Розміщено: @room.CreatedAt.ToString("dd MMMM yyyy")</p>
+                <p class="text-muted small">Площа: @room.SquareMeters м²</p>
+            </div>
+
+            <div class="text-end d-flex flex-column justify-content-between align-items-end">
+                <h5 class="text-success">@room.PricePerDay.ToString("₴#,##0")</h5>
+                <a asp-action="Details" asp-route-id="@room.Id" class="btn btn-sm btn-primary">Переглянути</a>
+                <form asp-controller="Favorites" asp-action="Add" asp-route-id="@room.Id" method="post">
+                    <button type="submit" class="btn btn-outline-secondary btn-sm mt-2">
+                        🤍 У вибране
+                    </button>
+                </form>
+            </div>
+        </div>
+    }
+</div>

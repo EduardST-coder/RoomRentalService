@@ -1,0 +1,35 @@
+﻿@model RoomRentalService.Controllers.AccountController.EditProfileViewModel
+@{
+    ViewData["Title"] = "Редагування профілю";
+}
+
+<h2>Редагування профілю</h2>
+
+<form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PhoneNumber" class="form-label"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Avatar" class="form-label">Фото профілю</label>
+        <input asp-for="Avatar" type="file" class="form-control" />
+        <span asp-validation-for="Avatar" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Зберегти</button>
+    <a asp-action="Cabinet" class="btn btn-secondary">Скасувати</a>
+</form>

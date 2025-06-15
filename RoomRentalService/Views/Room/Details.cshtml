@@ -1,16 +1,54 @@
 ﻿@model RoomRental.Models.Room
+@using RoomRental.DAL.Models
 
 @{
-    ViewData["Title"] = "Деталі кімнати";
+    ViewData["Title"] = "Деталі квартири";
+    var owner = ViewBag.Owner as ApplicationUser;
+    var avatar = owner != null && !string.IsNullOrEmpty(owner.AvatarUrl)
+        ? owner.AvatarUrl
+        : "/images/default-avatar.png";
 }
 
-<h2>Детальна інформація</h2>
+<h2 class="mb-4">@Model.Name</h2>
 
-<div class="card p-3">
-    <h4>@Model.Name</h4>
-    <p><strong>Опис:</strong> @Model.Description</p>
-    <p><strong>Ціна за день:</strong> @Model.PricePerDay.ToString("C")</p>
-    <p><strong>Доступність:</strong> @(Model.IsAvailable ? "Так" : "Ні")</p>
+<div class="row">
+    <div class="col-md-6">
+        <img src="@($"/uploads/{Model.Id}.jpg")" alt="Фото квартири" class="img-fluid rounded mb-3" style="max-height: 400px; object-fit: cover;" />
+        <p class="text-muted">Розміщено: @Model.CreatedAt.ToString("dd MMMM yyyy")</p>
+        <p><strong>Опис:</strong> @Model.Description</p>
+        <p><strong>Площа:</strong> @Model.SquareMeters м²</p>
+        <p><strong>Локація:</strong> @Model.Location</p>
+        <p><strong>Ціна:</strong> <span class="text-success fw-bold">₴@Model.PricePerDay</span></p>
+        <p><strong>Статус:</strong> <span class="badge bg-@(Model.IsAvailable ? "success" : "secondary")">
+            @(Model.IsAvailable ? "Доступна" : "Недоступна")
+        </span></p>
+    </div>
+
+    <div class="col-md-6">
+        <h4>Продавець</h4>
+
+        @if (owner != null)
+        {
+            <div class="d-flex align-items-center mb-3">
+                <img src="@avatar" class="rounded-circle me-3" style="width: 64px; height: 64px; object-fit: cover;">
+                <div>
+                    <strong>@owner.FirstName @owner.LastName</strong><br />
+                    <small class="text-muted">@owner.Email</small><br />
+                    <small>@owner.PhoneNumber</small>
+                </div>
+            </div>
+
+            <h5>Надіслати повідомлення продавцю</h5>
+            <form method="post" asp-controller="Message" asp-action="Send" asp-route-recipientId="@Model.OwnerId">
+                <div class="mb-3">
+                    <textarea name="content" class="form-control" rows="4" placeholder="Ваше повідомлення..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Надіслати</button>
+            </form>
+        }
+        else
+        {
+            <p class="text-danger">Продавець не знайдений.</p>
+        }
+    </div>
 </div>
-
-<a asp-action="Index" class="btn btn-secondary mt-3">Назад до списку</a>

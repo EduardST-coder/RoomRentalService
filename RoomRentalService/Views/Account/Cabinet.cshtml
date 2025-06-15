@@ -1,35 +1,76 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@using RoomRental.DAL.Models
+@inject UserManager<ApplicationUser> UserManager
+
+@{
     ViewData["Title"] = "Мій кабінет";
     var myRooms = ViewBag.MyRooms as List<RoomRental.Models.Room>;
+    var currentUser = await UserManager.GetUserAsync(User);
+    var avatar = !string.IsNullOrEmpty(currentUser.AvatarUrl) ? currentUser.AvatarUrl : "/images/default-avatar.png";
 }
 
-<h2>Мої квартири</h2>
+<h2 class="mb-4">Особистий кабінет</h2>
 
-@if (myRooms != null && myRooms.Count > 0)
-{
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Назва</th>
-                <th>Опис</th>
-                <th>Ціна</th>
-                <th>Доступна</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var room in myRooms)
-            {
-                <tr>
-                    <td>@room.Name</td>
-                    <td>@room.Description</td>
-                    <td>@room.PricePerDay</td>
-                    <td>@(room.IsAvailable ? "Так" : "Ні")</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <div class="alert alert-info">У вас поки що немає квартир.</div>
-}
+<ul class="nav nav-tabs mb-4" id="cabinetTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="account-tab" data-bs-toggle="tab" data-bs-target="#account" type="button" role="tab">Акаунт</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="rooms-tab" data-bs-toggle="tab" data-bs-target="#rooms" type="button" role="tab">Мої квартири</button>
+    </li>
+</ul>
+
+<div class="tab-content" id="cabinetTabsContent">
+    <!-- Акаунт -->
+    <div class="tab-pane fade show active" id="account" role="tabpanel">
+        <div class="d-flex align-items-center mb-4">
+            <img src="@avatar" class="rounded-circle me-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Аватар">
+            <div>
+                <h5 class="mb-0">@currentUser.FirstName @currentUser.LastName</h5>
+                <small class="text-muted">@currentUser.Email</small>
+            </div>
+        </div>
+
+        <dl class="row">
+            <dt class="col-sm-3">Телефон</dt>
+            <dd class="col-sm-9">@currentUser.PhoneNumber</dd>
+        </dl>
+
+        <a class="btn btn-outline-primary me-2" asp-action="EditProfile">Редагувати профіль</a>
+        <a class="btn btn-outline-secondary" asp-area="Identity" asp-page="/Account/Manage/ChangePassword">Змінити пароль</a>
+    </div>
+
+    <!-- Мої квартири -->
+    <div class="tab-pane fade" id="rooms" role="tabpanel">
+        @if (myRooms != null && myRooms.Any())
+        {
+            <div class="row">
+                @foreach (var room in myRooms)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="@($"/uploads/{room.Id}.jpg")" alt="Фото" class="card-img-top" style="height: 180px; object-fit: cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">@room.Name</h5>
+                                <p class="card-text text-muted">@room.Description</p>
+                                <p class="card-text text-success">₴@room.PricePerDay</p>
+                                <span class="badge bg-@(room.IsAvailable ? "success" : "secondary")">
+                                    @(room.IsAvailable ? "Доступна" : "Недоступна")
+                                </span>
+                                <p class="card-text"><small class="text-muted">Створено: @room.CreatedAt.ToString("dd.MM.yyyy")</small></p>
+                                <div class="mt-auto d-flex gap-2">
+                                    <a asp-controller="Room" asp-action="Edit" asp-route-id="@room.Id" class="btn btn-sm btn-outline-primary">Редагувати</a>
+                                    <a asp-controller="Room" asp-action="Delete" asp-route-id="@room.Id" class="btn btn-sm btn-outline-danger">Видалити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info">У вас ще немає квартир.</div>
+        }
+    </div>
+</div>

@@ -8,8 +8,12 @@ public class Room
     public decimal PricePerDay { get; set; }
     public bool IsAvailable { get; set; } = true;
 
-    // 🔗 Звʼязок з користувачем
     public string OwnerId { get; set; } = string.Empty;
 
     public ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+
+    // 🔄 Нові поля для головної сторінки
+    public string Location { get; set; } = string.Empty;
+    public double SquareMeters { get; set; } = 0;
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
 }

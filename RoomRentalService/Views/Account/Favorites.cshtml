@@ -1,0 +1,30 @@
+﻿@model List<RoomRental.Models.Favorite>
+
+@{
+    ViewData["Title"] = "Мої вибрані квартири";
+}
+
+<h2 class="mb-4">Мої вибрані квартири</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="row">
+        @foreach (var fav in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@fav.Room.Name</h5>
+                        <p class="card-text">@fav.Room.Description</p>
+                        <p class="card-text text-success">₴@fav.Room.PricePerDay</p>
+                        <a asp-controller="Room" asp-action="Details" asp-route-id="@fav.Room.Id" class="btn btn-primary">Переглянути</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-info">У вас ще немає збережених квартир.</div>
+}

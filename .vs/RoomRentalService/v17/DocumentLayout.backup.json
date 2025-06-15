@@ -3,44 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250608171442_AddRoomOwner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomRental.DAL\\Migrations\\20250608171442_AddRoomOwner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\cabinet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\cabinet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|solutionrelative:roomrental.models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250608155259_identityinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250608155259_identityinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.Rooms.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,6 +14,92 @@
       "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\cabinet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\cabinet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.Customers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|solutionrelative:roomrental.models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|solutionrelative:roomrental.models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0D68C4-6E04-4E0C-9897-4956E15B76D0}|RoomRental.Models\\RoomRental.Models.csproj|solutionrelative:roomrental.models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250608171442_addroomowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250608171442_addroomowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250608155259_identityinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250608155259_identityinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -59,16 +108,8 @@
       "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrentalservice\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BC235C-DF6F-473F-8CD1-B88368B389A2}|RoomRentalService\\RoomRentalService.csproj|solutionrelative:roomrentalservice\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8203EF9D-1CC2-45D9-84DB-1A7C9E57705E}|RoomRental.BLL\\RoomRental.BLL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.bll\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,6 +134,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{8203EF9D-1CC2-45D9-84DB-1A7C9E57705E}|RoomRental.BLL\\RoomRental.BLL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8203EF9D-1CC2-45D9-84DB-1A7C9E57705E}|RoomRental.BLL\\RoomRental.BLL.csproj|solutionrelative:roomrental.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250615184429_adduserprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250615184429_adduserprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250615182003_addroomfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250615182003_addroomfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250615163234_addusernotificationsandfavorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250615163234_addusernotificationsandfavorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|c:\\users\\\u043F\u043A\\source\\repos\\roomrentalservice\\roomrental.dal\\migrations\\20250615162727_addnotificationsandfavorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63E4F26-FA0A-44E7-A6C4-B6CC3E859EAE}|RoomRental.DAL\\RoomRental.DAL.csproj|solutionrelative:roomrental.dal\\migrations\\20250615162727_addnotificationsandfavorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,6 +168,190 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.Rooms [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.Rooms.sql",
+              "ToolTip": "dbo.Rooms [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-15T21:33:48.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-15T20:01:27.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.Customers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.Customers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RoomRentalDb/True/SqlTable/dbo.Customers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-15T20:01:17.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "RoomRentalService\\Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\EditProfile.cshtml",
+              "RelativeToolTip": "RoomRentalService\\Views\\Account\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T19:02:17.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250615184429_AddUserProfileFields.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615184429_AddUserProfileFields.cs",
+              "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250615184429_AddUserProfileFields.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615184429_AddUserProfileFields.cs",
+              "RelativeToolTip": "RoomRental.DAL\\Migrations\\20250615184429_AddUserProfileFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:44:29.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250615182003_AddRoomFields.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615182003_AddRoomFields.cs",
+              "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250615182003_AddRoomFields.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615182003_AddRoomFields.cs",
+              "RelativeToolTip": "RoomRental.DAL\\Migrations\\20250615182003_AddRoomFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:20:03.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Favorites.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Favorites.cshtml",
+              "RelativeDocumentMoniker": "RoomRentalService\\Views\\Account\\Favorites.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Favorites.cshtml",
+              "RelativeToolTip": "RoomRentalService\\Views\\Account\\Favorites.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:39:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Notifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Notifications.cshtml",
+              "RelativeDocumentMoniker": "RoomRentalService\\Views\\Account\\Notifications.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Notifications.cshtml",
+              "RelativeToolTip": "RoomRentalService\\Views\\Account\\Notifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:38:47.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250615163234_AddUserNotificationsAndFavorites.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615163234_AddUserNotificationsAndFavorites.cs",
+              "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250615163234_AddUserNotificationsAndFavorites.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615163234_AddUserNotificationsAndFavorites.cs",
+              "RelativeToolTip": "RoomRental.DAL\\Migrations\\20250615163234_AddUserNotificationsAndFavorites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:32:34.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "RoomRental.Models\\Favorite.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Favorite.cs",
+              "RelativeToolTip": "RoomRental.Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:28:27.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250615162727_AddNotificationsAndFavorites.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615162727_AddNotificationsAndFavorites.cs",
+              "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250615162727_AddNotificationsAndFavorites.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250615162727_AddNotificationsAndFavorites.cs",
+              "RelativeToolTip": "RoomRental.DAL\\Migrations\\20250615162727_AddNotificationsAndFavorites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:27:27.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Notification.cs",
+              "RelativeDocumentMoniker": "RoomRental.Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Notification.cs",
+              "RelativeToolTip": "RoomRental.Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:22:58.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "RoomRentalService\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "RoomRentalService\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T22:02:24.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "RoomRentalService\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "RoomRentalService\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T22:01:41.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "RoomRentalService\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "RoomRentalService\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T21:49:59.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RoomRentalService\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RoomRentalService\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T21:01:04.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "20250608171442_AddRoomOwner.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250608171442_AddRoomOwner.cs",
               "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250608171442_AddRoomOwner.cs",
@@ -118,75 +359,60 @@
               "RelativeToolTip": "RoomRental.DAL\\Migrations\\20250608171442_AddRoomOwner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T17:14:42.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T17:14:42.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cabinet.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Cabinet.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Account\\Cabinet.cshtml",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Account\\Cabinet.cshtml",
               "RelativeToolTip": "RoomRentalService\\Views\\Account\\Cabinet.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-08T17:11:22.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "RoomRentalService\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Controllers\\AccountController.cs",
               "RelativeToolTip": "RoomRentalService\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAwMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T17:10:10.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T17:10:10.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "RoomRental.DAL\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "RoomRental.DAL\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T17:03:42.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "RoomRentalService\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "RoomRentalService\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T16:26:16.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "RoomRentalService\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-08T15:57:47.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "20250608155259_IdentityInit.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250608155259_IdentityInit.cs",
               "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250608155259_IdentityInit.cs",
@@ -198,19 +424,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Details.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Room\\Details.cshtml",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Details.cshtml",
               "RelativeToolTip": "RoomRentalService\\Views\\Room\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T14:06:18.673Z"
+              "WhenOpened": "2025-06-08T14:06:18.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Delete.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Room\\Delete.cshtml",
@@ -222,19 +449,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Index.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Room\\Index.cshtml",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Index.cshtml",
               "RelativeToolTip": "RoomRentalService\\Views\\Room\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T13:52:14.872Z"
+              "WhenOpened": "2025-06-08T13:52:14.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Edit.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Room\\Edit.cshtml",
@@ -246,19 +474,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Create.cshtml",
               "RelativeDocumentMoniker": "RoomRentalService\\Views\\Room\\Create.cshtml",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Views\\Room\\Create.cshtml",
               "RelativeToolTip": "RoomRentalService\\Views\\Room\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-04T22:18:53.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.BLL\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "RoomRental.BLL\\Services\\RoomService.cs",
@@ -270,19 +498,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "RoomRentalService\\Controllers\\RoomController.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Controllers\\RoomController.cs",
               "RelativeToolTip": "RoomRentalService\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T22:11:48.608Z"
+              "WhenOpened": "2025-06-04T22:11:48.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "20250604220945_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\Migrations\\20250604220945_InitialCreate.cs",
               "RelativeDocumentMoniker": "RoomRental.DAL\\Migrations\\20250604220945_InitialCreate.cs",
@@ -294,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "AppDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "RoomRental.DAL\\AppDbContextFactory.cs",
@@ -306,19 +535,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Program.cs",
               "RelativeDocumentMoniker": "RoomRentalService\\Program.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\Program.cs",
               "RelativeToolTip": "RoomRentalService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T21:50:10.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRentalService\\appsettings.json",
               "RelativeDocumentMoniker": "RoomRentalService\\appsettings.json",
@@ -330,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "Rental.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Rental.cs",
               "RelativeDocumentMoniker": "RoomRental.Models\\Rental.cs",
@@ -342,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Customer.cs",
               "RelativeDocumentMoniker": "RoomRental.Models\\Customer.cs",
@@ -354,33 +583,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Room.cs",
               "RelativeDocumentMoniker": "RoomRental.Models\\Room.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.Models\\Room.cs",
               "RelativeToolTip": "RoomRental.Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:06:31.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T21:06:31.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RoomRental.DAL\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.DAL\\AppDbContext.cs",
               "RelativeToolTip": "RoomRental.DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:05:43.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T21:05:43.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\RoomRentalService\\RoomRental.BLL\\Class1.cs",
               "RelativeDocumentMoniker": "RoomRental.BLL\\Class1.cs",

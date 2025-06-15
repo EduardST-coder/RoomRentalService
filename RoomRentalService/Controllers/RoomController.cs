@@ -1,16 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 using RoomRental.BLL.Services;
 using RoomRental.Models;
+using RoomRental.DAL.Models;
+using System.Security.Claims;
 
 namespace RoomRentalService.Controllers;
 
 public class RoomController : Controller
 {
     private readonly RoomService _roomService;
+    private readonly UserManager<ApplicationUser> _userManager;
 
-    public RoomController(RoomService roomService)
+    public RoomController(RoomService roomService, UserManager<ApplicationUser> userManager)
     {
         _roomService = roomService;
+        _userManager = userManager;
     }
 
     public async Task<IActionResult> Index()
@@ -25,12 +30,27 @@ public class RoomController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(Room room)
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Create(Room room, IFormFile? Photo)
     {
         if (!ModelState.IsValid)
             return View(room);
 
+        room.OwnerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        room.CreatedAt = DateTime.Now;
+
         await _roomService.AddAsync(room);
+
+        if (Photo != null && Photo.Length > 0)
+        {
+            var uploadsFolder = Path.Combine("wwwroot", "uploads");
+            Directory.CreateDirectory(uploadsFolder);
+
+            var filePath = Path.Combine(uploadsFolder, $"{room.Id}.jpg");
+            using var stream = new FileStream(filePath, FileMode.Create);
+            await Photo.CopyToAsync(stream);
+        }
+
         return RedirectToAction(nameof(Index));
     }
 
@@ -51,7 +71,6 @@ public class RoomController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // ✅ GET: Підтвердження видалення
     public async Task<IActionResult> Delete(int id)
     {
         var room = await _roomService.GetByIdAsync(id);
@@ -59,7 +78,6 @@ public class RoomController : Controller
         return View(room);
     }
 
-    // ✅ POST: Видалення підтверджено
     [HttpPost, ActionName("Delete")]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
@@ -67,11 +85,14 @@ public class RoomController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // ✅ GET: Детальна інформація про кімнату
     public async Task<IActionResult> Details(int id)
     {
         var room = await _roomService.GetByIdAsync(id);
         if (room == null) return NotFound();
+
+        var owner = await _userManager.FindByIdAsync(room.OwnerId);
+        ViewBag.Owner = owner;
+
         return View(room);
     }
 }

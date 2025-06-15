@@ -12,6 +12,10 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Room> Rooms { get; set; }
     public DbSet<Rental> Rentals { get; set; }
     public DbSet<Customer> Customers { get; set; }
+    public DbSet<Notification> Notifications { get; set; }
+    public DbSet<Favorite> Favorites { get; set; }
+
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

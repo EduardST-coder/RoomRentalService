@@ -4,5 +4,7 @@ namespace RoomRental.DAL.Models;
 
 public class ApplicationUser : IdentityUser
 {
-    // Додаткові поля при потребі
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public string AvatarUrl { get; set; } = string.Empty; // Посилання на фото
 }
