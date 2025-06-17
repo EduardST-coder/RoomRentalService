@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomRentalService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac3d33e29732e0b1b3f80d640f79eb0d11241c44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d1fc69cb341447469767c3b8cca922ece6167d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomRentalService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomRentalService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

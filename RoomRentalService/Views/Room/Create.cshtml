@@ -38,16 +38,20 @@
     </div>
 
     <div class="mb-3">
-        <label class="form-label">Фото</label>
-        <input type="file" name="Photo" class="form-control" />
+        <label class="form-label">Фото квартири</label>
+        <input type="file" name="photos" class="form-control" multiple />
+        <small class="form-text text-muted">Ви можете вибрати кілька зображень</small>
+    </div>
+
+    <div class="form-check mb-3">
+        <input class="form-check-input" asp-for="IsAvailable" />
+        <label class="form-check-label" asp-for="IsAvailable">Доступна</label>
     </div>
 
     <button type="submit" class="btn btn-primary">Зберегти</button>
-    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Скасувати</a>
 </form>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    @await Html.PartialAsync("_ValidationScriptsPartial")
 }

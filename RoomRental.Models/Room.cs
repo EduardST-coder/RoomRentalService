@@ -11,6 +11,8 @@ public class Room
     public string OwnerId { get; set; } = string.Empty;
 
     public ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+    public ICollection<RoomImage> Images { get; set; } = new List<RoomImage>();
+
 
     // 🔄 Нові поля для головної сторінки
     public string Location { get; set; } = string.Empty;

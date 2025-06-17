@@ -14,6 +14,8 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Notification> Notifications { get; set; }
     public DbSet<Favorite> Favorites { get; set; }
+    public DbSet<RoomImage> RoomImages { get; set; }
+    public DbSet<Message> Messages { get; set; }
 
 
 

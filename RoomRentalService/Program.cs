@@ -6,30 +6,40 @@ using RoomRental.BLL.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔧 Підключення AppDbContext + SQL Server
+// 🔧 Підключення AppDbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // 🔐 Додавання Identity
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    // ⚠️ Спрощені правила пароля (опціонально для тесту)
+    options.Password.RequireDigit = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequiredLength = 6;
+})
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders()
-    .AddDefaultUI(); // якщо використовуватимеш Razor Pages
+    .AddDefaultUI(); // Razor Pages підтримка
 
+// 🔧 DI сервіс
 builder.Services.AddScoped<RoomService>();
 
+// 🔧 MVC
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// 🧠 Seeder ролі Admin + адміністратора з перевіркою
+// 🧠 Seeder для ролі Admin і користувача
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
 
-    // Роль Admin
+    // Створити роль Admin
     if (!await roleManager.RoleExistsAsync("Admin"))
         await roleManager.CreateAsync(new IdentityRole("Admin"));
 
@@ -47,22 +57,22 @@ using (var scope = app.Services.CreateScope())
             EmailConfirmed = true
         };
 
-        var createResult = await userManager.CreateAsync(admin, adminPass);
-
-        if (createResult.Succeeded)
+        var result = await userManager.CreateAsync(admin, adminPass);
+        if (result.Succeeded)
         {
             await userManager.AddToRoleAsync(admin, "Admin");
         }
         else
         {
-            foreach (var error in createResult.Errors)
+            foreach (var error in result.Errors)
             {
-                Console.WriteLine($"❌ Помилка при створенні адміна: {error.Description}");
+                Console.WriteLine($"❌ Адмін не створений: {error.Description}");
             }
         }
     }
 }
 
+// 🔧 Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -74,9 +84,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); // Обов’язково для Identity
+app.UseAuthentication(); // обов’язково перед Authorization
 app.UseAuthorization();
 
+// 📌 маршрути
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Room}/{action=Index}/{id?}");

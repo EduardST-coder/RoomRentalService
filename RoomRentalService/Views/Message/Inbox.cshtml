@@ -1,0 +1,38 @@
+﻿@model List<RoomRental.DAL.Models.ApplicationUser>
+@using RoomRental.Models
+@using RoomRental.DAL.Models
+
+@{
+    ViewData["Title"] = "Повідомлення";
+    var allMessages = ViewBag.AllMessages as List<Message> ?? new List<Message>();
+    var currentUserId = ViewBag.CurrentUserId as string ?? "";
+}
+
+<h2 class="mb-4">Повідомлення</h2>
+
+@if (Model.Any())
+{
+    <ul class="list-group">
+        @foreach (var user in Model)
+        {
+            var unreadCount = allMessages.Count(m => m.SenderId == user.Id && m.RecipientId == currentUserId && !m.IsRead);
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <strong>@user.FirstName @user.LastName</strong>
+                    @if (unreadCount > 0)
+                    {
+                        <span class="text-primary ms-2">●</span>
+                    }
+                    <br />
+                    <small class="text-muted">@user.Email</small>
+                </div>
+                <a asp-action="Chat" asp-route-userId="@user.Id" class="btn btn-primary btn-sm">Перейти до чату</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <div class="alert alert-info">Повідомлень поки немає.</div>
+}

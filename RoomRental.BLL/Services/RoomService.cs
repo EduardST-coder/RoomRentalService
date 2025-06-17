@@ -15,12 +15,16 @@ public class RoomService
 
     public async Task<List<Room>> GetAllAsync()
     {
-        return await _context.Rooms.ToListAsync();
+        return await _context.Rooms
+            .Include(r => r.Images)
+            .ToListAsync();
     }
 
     public async Task<Room?> GetByIdAsync(int id)
     {
-        return await _context.Rooms.FindAsync(id);
+        return await _context.Rooms
+            .Include(r => r.Images)
+            .FirstOrDefaultAsync(r => r.Id == id);
     }
 
     public async Task AddAsync(Room room)
@@ -43,5 +47,14 @@ public class RoomService
             _context.Rooms.Remove(room);
             await _context.SaveChangesAsync();
         }
+    }
+
+    // ✅ Новий метод для отримання ID вибраних кімнат користувача
+    public async Task<List<int>> GetFavoriteRoomIdsAsync(string userId)
+    {
+        return await _context.Favorites
+            .Where(f => f.UserId == userId)
+            .Select(f => f.RoomId)
+            .ToListAsync();
     }
 }

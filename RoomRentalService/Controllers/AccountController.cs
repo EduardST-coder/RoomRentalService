@@ -70,7 +70,12 @@ public class AccountController : Controller
     {
         if (!ModelState.IsValid) return View(model);
 
-        var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+        var user = new ApplicationUser
+        {
+            UserName = model.Email,
+            Email = model.Email
+        };
+
         var result = await _userManager.CreateAsync(user, model.Password);
 
         if (result.Succeeded)
@@ -80,7 +85,10 @@ public class AccountController : Controller
         }
 
         foreach (var error in result.Errors)
-            ModelState.AddModelError("", error.Description);
+        {
+            Console.WriteLine($"❌ Реєстрація помилка: {error.Description}");
+            ModelState.AddModelError(string.Empty, error.Description);
+        }
 
         return View(model);
     }
@@ -113,9 +121,18 @@ public class AccountController : Controller
     public async Task<IActionResult> Cabinet()
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-        var myRooms = await _context.Rooms.Where(r => r.OwnerId == userId).ToListAsync();
+
+        var myRooms = await _context.Rooms
+            .Where(r => r.OwnerId == userId)
+            .ToListAsync();
+
+        var unreadCount = await _context.Messages
+            .Where(m => m.RecipientId == userId && !m.IsRead)
+            .CountAsync();
 
         ViewBag.MyRooms = myRooms;
+        ViewBag.UnreadCount = unreadCount;
+
         return View();
     }
 

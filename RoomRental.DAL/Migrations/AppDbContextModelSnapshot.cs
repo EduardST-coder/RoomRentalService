@@ -279,6 +279,37 @@ namespace RoomRental.DAL.Migrations
                     b.ToTable("Favorites");
                 });
 
+            modelBuilder.Entity("RoomRental.Models.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("RecipientId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SenderId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("SentAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("RoomRental.Models.Notification", b =>
                 {
                     b.Property<int>("Id")
@@ -379,6 +410,31 @@ namespace RoomRental.DAL.Migrations
                     b.ToTable("Rooms");
                 });
 
+            modelBuilder.Entity("RoomRental.Models.RoomImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoomId");
+
+                    b.ToTable("RoomImages");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -460,6 +516,17 @@ namespace RoomRental.DAL.Migrations
                     b.Navigation("Room");
                 });
 
+            modelBuilder.Entity("RoomRental.Models.RoomImage", b =>
+                {
+                    b.HasOne("RoomRental.Models.Room", "Room")
+                        .WithMany("Images")
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Room");
+                });
+
             modelBuilder.Entity("RoomRental.Models.Customer", b =>
                 {
                     b.Navigation("Rentals");
@@ -467,6 +534,8 @@ namespace RoomRental.DAL.Migrations
 
             modelBuilder.Entity("RoomRental.Models.Room", b =>
                 {
+                    b.Navigation("Images");
+
                     b.Navigation("Rentals");
                 });
 #pragma warning restore 612, 618

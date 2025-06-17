@@ -31,7 +31,7 @@ public class RoomController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create(Room room, IFormFile? Photo)
+    public async Task<IActionResult> Create(Room room, List<IFormFile> photos)
     {
         if (!ModelState.IsValid)
             return View(room);
@@ -39,16 +39,35 @@ public class RoomController : Controller
         room.OwnerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
         room.CreatedAt = DateTime.Now;
 
-        await _roomService.AddAsync(room);
+        await _roomService.AddAsync(room); // зберігає Room і створює Id
 
-        if (Photo != null && Photo.Length > 0)
+        if (photos != null && photos.Any())
         {
-            var uploadsFolder = Path.Combine("wwwroot", "uploads");
-            Directory.CreateDirectory(uploadsFolder);
+            var folderPath = Path.Combine("wwwroot", "uploads", room.Id.ToString());
+            Directory.CreateDirectory(folderPath);
 
-            var filePath = Path.Combine(uploadsFolder, $"{room.Id}.jpg");
-            using var stream = new FileStream(filePath, FileMode.Create);
-            await Photo.CopyToAsync(stream);
+            for (int i = 0; i < photos.Count; i++)
+            {
+                var file = photos[i];
+
+                if (file.Length > 0)
+                {
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    var filePath = Path.Combine(folderPath, fileName);
+
+                    using var stream = new FileStream(filePath, FileMode.Create);
+                    await file.CopyToAsync(stream);
+
+                    room.Images.Add(new RoomImage
+                    {
+                        RoomId = room.Id,
+                        ImagePath = $"/uploads/{room.Id}/{fileName}",
+                        IsMain = i == 0 // перше фото — головне
+                    });
+                }
+            }
+
+            await _roomService.UpdateAsync(room);
         }
 
         return RedirectToAction(nameof(Index));

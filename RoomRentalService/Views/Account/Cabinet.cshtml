@@ -6,7 +6,10 @@
     ViewData["Title"] = "Мій кабінет";
     var myRooms = ViewBag.MyRooms as List<RoomRental.Models.Room>;
     var currentUser = await UserManager.GetUserAsync(User);
-    var avatar = !string.IsNullOrEmpty(currentUser.AvatarUrl) ? currentUser.AvatarUrl : "/images/default-avatar.png";
+    var avatar = !string.IsNullOrEmpty(currentUser.AvatarUrl)
+        ? currentUser.AvatarUrl
+        : "/images/default-avatar.png";
+    var unreadCount = ViewBag.UnreadCount as int? ?? 0;
 }
 
 <h2 class="mb-4">Особистий кабінет</h2>
@@ -17,6 +20,15 @@
     </li>
     <li class="nav-item" role="presentation">
         <button class="nav-link" id="rooms-tab" data-bs-toggle="tab" data-bs-target="#rooms" type="button" role="tab">Мої квартири</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link d-flex align-items-center" href="@Url.Action("Inbox", "Message")">
+            Чати
+            @if (unreadCount > 0)
+            {
+                <span class="badge bg-danger ms-2">@unreadCount</span>
+            }
+        </a>
     </li>
 </ul>
 

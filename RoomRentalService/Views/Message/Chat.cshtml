@@ -1,0 +1,33 @@
+﻿@model List<RoomRental.Models.Message>
+@using RoomRental.DAL.Models
+@using System.Security.Claims
+
+
+@{
+    ViewData["Title"] = "Чат";
+    var otherUser = ViewBag.OtherUser as ApplicationUser;
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+}
+
+<h2 class="mb-3">Чат з @otherUser?.FirstName @otherUser?.LastName</h2>
+
+<div class="border rounded p-3 mb-4" style="max-height: 400px; overflow-y: auto;">
+    @foreach (var msg in Model)
+    {
+        <div class="mb-2 text-@(msg.SenderId == currentUserId ? "end" : "start")">
+            <div class="d-inline-block p-2 rounded bg-@(msg.SenderId == currentUserId ? "primary text-white" : "light")">
+                @msg.Content
+            </div>
+            <div class="small text-muted">@msg.SentAt.ToString("dd.MM.yyyy HH:mm")</div>
+        </div>
+    }
+</div>
+
+<form asp-action="Send" method="post">
+    <input type="hidden" name="recipientId" value="@otherUser?.Id" />
+    <div class="mb-3">
+        <textarea name="content" class="form-control" rows="3" placeholder="Ваше повідомлення..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Надіслати</button>
+    <a asp-action="Inbox" class="btn btn-secondary ms-2">Назад</a>
+</form>
